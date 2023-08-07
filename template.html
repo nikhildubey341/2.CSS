@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS Templates</title>
+    <link rel="shortcut icon" href="files/w3.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .header {
+            position: fixed;
+            z-index: 1;
+            height: 7vh;
+            width: 100%;
+            box-shadow: 2px 2px 2px gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+
+
+        }
+
+        .side-heading {
+            display: flex;
+            margin-right: 50px;
+
+
+        }
+
+        .heading {
+            margin-left: 50px;
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+
+        .side {
+            margin: 20px;
+            font-size: 18px;
+            padding: 5px 8px;
+            letter-spacing: 3px;
+        }
+
+        .img1 {
+            height: 98vh;
+            width: 99%;
+
+            background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+            background-repeat: no-repeat;
+
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10vh;
+        }
+
+        #in-img1 {
+            color: white;
+            font-size: 45px;
+        }
+
+        #br {
+            background-color: black;
+            opacity: 0.7;
+            padding: 3px 15px;
+
+        }
+
+        .project {
+            height: 80vh;
+            width: 98%;
+
+        }
+
+
+        hr {
+            color: gray;
+            opacity: 0.2;
+        }
+
+        .houses {
+            height: 60vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .images {
+            height: 26vh;
+            width: 22%;
+
+
+
+        }
+
+        #im-1 {
+            background: url(https://www.w3schools.com/w3images/house5.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-2 {
+            background: url(https://www.w3schools.com/w3images/house2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-3 {
+            background: url(https://www.w3schools.com/w3images/house3.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-4 {
+            background: url(https://www.w3schools.com/w3images/house4.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-5 {
+            background: url(https://www.w3schools.com/w3images/house2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-6 {
+            background: url(https://www.w3schools.com/w3images/house5.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-7 {
+            background: url(https://www.w3schools.com/w3images/house4.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #im-8 {
+            background: url(https://www.w3schools.com/w3images/house3.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .text {
+            position: relative;
+            top: 6px;
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+
+        }
+
+
+        .about {
+            height: 83vh;
+            width: 96%;
+
+            margin-bottom: 10vh;
+        }
+
+
+
+        .persons {
+            height: 70%;
+            width: 98%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .persons-details {
+            height: 100%;
+            width: 20%;
+        }
+
+        .persons-images {
+            height: 53%;
+            width: 100%;
+            -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+        }
+
+
+
+        .contact-button {
+            padding: 10px;
+            width: 100%;
+            border: none;
+        }
+
+        .contact {
+            height: 55vh;
+            width: 96%;
+            /* border: 1px solid black; */
+            margin-bottom: 10vh;
+        }
+
+        input {
+            height: 5vh;
+            width: 99%;
+            margin-bottom: 15px;
+            border: 1px solid #E5E5E5;
+            padding-left: 20px;
+
+        }
+
+        .submit-button {
+            width: 120px;
+            height: 35px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+
+        .submit-button:hover {
+            cursor: pointer;
+            background-color: #CCCCCC;
+            color: black;
+            border: none;
+        }
+
+        .img2 {
+            height: 100vh;
+            width: 95%;
+            background: url(https://www.w3schools.com/w3images/map.jpg);
+        }
+
+        footer {
+            height: 10vh;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="header">
+            <div class="heading">
+                <span><b>BR</b></span> Architects
+            </div>
+
+            <div class="side-heading">
+                <p class="side">Project</p>
+                <p class="side">About</p>
+                <p class="side">Contact</p>
+            </div>
+        </div>
+
+
+
+        <div class="img1">
+            <h1 id="in-img1">
+                <span style="letter-spacing: 3px;" id="br"><b>BR</b></span>
+                <span style="letter-spacing: 3px;">Architects</span>
+            </h1>
+        </div>
+
+
+        <div class="project">
+            <p style="font-size: 25px;">Project</p>
+            <hr>
+            <div class="houses">
+                <div class="images" id="im-1"><span class="text">Summer House</span></div>
+                <div class="images" id="im-2"><span class="text">Brick House</span></div>
+                <div class="images" id="im-3"><span class="text">Renovated</span></div>
+                <div class="images" id="im-4"><span class="text">Barn House</span></div>
+                <div class="images" id="im-5"><span class="text">Summer House</span></div>
+                <div class="images" id="im-6"><span class="text">Brick House</span></div>
+                <div class="images" id="im-7"><span class="text">Renovated</span></div>
+                <div class="images" id="im-8"><span class="text">Barn House</span></div>
+            </div>
+        </div>
+
+
+
+        <div class="about">
+            <p style="font-size: 25px;">About</p>
+            <hr>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="persons">
+                <div class="persons-details"><img src="https://www.w3schools.com/w3images/team2.jpg" alt=""
+                        class="persons-images">
+                    <p style=" font-size: 20px;">John Doe</p>
+                    <p style="color: #B5B5B5;">CEO & Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p><button class="contact-button">Contact</button>
+                </div>
+                <div class="persons-details"><img src="https://www.w3schools.com/w3images/team1.jpg" alt=""
+                        class="persons-images">
+                    <p style=" font-size: 20px;">Jahn Doe</p>
+                    <p style="color: #B5B5B5;">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p><button class="contact-button">Contact</button>
+                </div>
+                <div class="persons-details"><img src="https://www.w3schools.com/w3images/team3.jpg" alt=""
+                        class="persons-images">
+                    <p style=" font-size: 20px;">Mike Ross</p>
+                    <p style="color: #B5B5B5;">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p><button class="contact-button">Contact</button>
+                </div>
+                <div class="persons-details"><img src="https://www.w3schools.com/w3images/team4.jpg" alt=""
+                        class="persons-images">
+                    <p style=" font-size: 20px;">Dan Star</p>
+                    <p style="color: #B5B5B5;">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p><button class="contact-button">Contact</button>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+
+        <div class="contact">
+            <p style="font-size: 25px;">Contact</p>
+            <hr>
+            <p>Lets get in touch and talk about your next project.</p>
+            <input type="text" placeholder=" Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Comment">
+            <button class="submit-button">Send Messege</button>
+        </div>
+
+
+
+
+        <div class="img2">
+
+        </div>
+        <br>
+    </div>
+
+
+    <footer>
+        <p>Powered by w3.css</p>
+    </footer>
+
+</body>
+
+</html>
